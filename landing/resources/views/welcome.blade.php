@@ -15,19 +15,19 @@
         <ul class="nav">
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Страница 1</a>
+                <a class="nav-link" href="/1">Страница 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Страница 2</a>
+                <a class="nav-link" href="/2">Страница 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Страница 3</a>
+                <a class="nav-link" href="/3">Страница 3</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Страница 4</a>
+                <a class="nav-link" href="/4">Страница 4</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Админка</a>
+                <a class="nav-link" href="/admin/activity">Админка</a>
             </li>
         </ul>
     </div>

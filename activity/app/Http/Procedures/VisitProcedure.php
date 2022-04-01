@@ -17,10 +17,9 @@ class VisitProcedure extends Procedure
 
     public function get(int $page)
     {
-        $data = Visit::selectRaw('url, count(*) as url_count, max(created_at) as last_created')
+        return Visit::selectRaw('url, count(*) as url_count, max(created_at) as last_created')
             ->groupBy('url')
             ->paginate(5, ['*'], 'page', $page);
-        return $data;
 
     }
 }
